@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>McDonald Puzzle</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css"/>
+</head>
+<body>
+<!-- 
+  <div class="tempo">
+    <h3 id="minutes">00</h3>
+    <h3>:</h3>
+    <h3 id="secs">00</h3>
+  </div> -->
+  <div class="tabuleiro">
+    <div id="container" class="panel">
+      <!-- data- serve para construit um atributo customizado -->
+      <div id="n1" class="tile" data-value="1">1</div>
+      <div id="n2" class="tile" data-value="2">2</div>
+      <div id="n3" class="tile" data-value="3">3</div>
+      <div id="n4" class="tile" data-value="4">4</div>
+      <div id="n5" class="tile" data-value="5">5</div>
+      <div id="n6" class="tile" data-value="6">6</div>
+      <div id="n7" class="tile" data-value="7">7</div>
+      <div id="n8" class="tile" data-value="8">8</div>    
+      
+      <div id="startScreen" class="panel modal"></div>
+      <div id="overScreen" class="panel modal"></div>
+
+      <div class="btn_ctl">
+        <button id="random">Embaralhar</button>
+        <button id="reset">Reset</button>
+      </div>
+
+    </div>
+    
+    <div id="container" class="panel">      
+      <div id="e1" class="tile sort_tile" data-value="1">1</div>
+      <div id="e2" class="tile sort_tile" data-value="2">2</div>
+      <div id="e3" class="tile sort_tile" data-value="3">3</div>
+      <div id="e4" class="tile sort_tile" data-value="4">4</div>
+      <div id="e5" class="tile sort_tile" data-value="5">5</div>
+      <div id="e6" class="tile sort_tile" data-value="6">6</div>
+      <div id="e7" class="tile sort_tile" data-value="7">7</div>
+      <div id="e8" class="tile sort_tile" data-value="8">8</div>    
+      
+      <div class="btn_ctl">
+          <button id="sort">Sortear</button>          
+      </div>
+
+      
+    </div>
+  </div>    
+  
+  <script src="script/script.js"></script>
+</body>
+</html>
